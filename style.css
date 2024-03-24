@@ -1,0 +1,113 @@
+body{
+    background-color: azure;
+    background-repeat: no-repeat ;
+}
+#atas{
+    font-family: bebas neue;
+    color: rgb(51, 0, 255);
+    text-align: center;
+    margin: 0;
+    font-size: 25pt;
+    background-color: #5FBDFF;
+
+}
+
+#judul{
+    font-family: bebas neue;
+    color: rgb(51, 0, 255);
+    text-align: center;
+    margin: 0;
+    font-size: 40pt;
+    background-color: #5FBDFF;
+}
+
+table{
+    display: inline-block;
+}
+
+#jdl{
+    text-align: center;
+    font-family: bebas neue;
+    font-size: 16pt;
+}
+
+#member{
+    width: 100pt;
+    display: inline-block;
+}
+
+#mNama{
+    font-family: Arial, Helvetica;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+#mjumlah{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+#mtgl{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+#mpopuler{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.left-div{
+    width: 100px;
+    display: inline-block;
+}
+
+.right-div{
+    display: inline-block;
+}
+
+.gambar {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: visible;
+  }
+  
+  .gambar img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .gambar:hover img {
+    transform: scale(1.1); /* Scale the image on hover */
+  }
+
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100;
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  .gambar:hover .image-overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
